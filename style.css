@@ -1,0 +1,67 @@
+/* Reset some default styles */
+body, h1,p{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #0000ff 0%, #ff0000 100%);
+    padding: 30px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #240456;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    color: #87e4f2;
+    text-align: center;
+    border-bottom: 10px double rgb(43, 143, 161);
+}
+
+nav ul {
+    padding-top: 30px;
+    font-size: 30px;
+    list-style: none;
+  color: #87e4f2;
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li a{
+    margin-right: 20px;
+    color: #87bffc;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+    color: #87e4f2;
+}
+
+main {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    background: rgb(45, 16, 103);
+    color: whitesmoke;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
